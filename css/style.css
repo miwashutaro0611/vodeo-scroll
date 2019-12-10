@@ -1,0 +1,37 @@
+body {
+  /* height: 13500px; */
+  margin: 0;
+  padding: 0;
+}
+
+/*要素の高さを取得するためのもの*/
+#set-height {
+  height: 13500px;  /*要素をスクロールさせるための高さ*/
+}
+
+/*映像のスタイル*/
+#v0 {
+  position: fixed; /*videoエリアは完全に固定させる*/
+  top: 0; /*topの値0*/
+  left: 0; /*leftの値0*/
+  height: 100%; /*高さ最大*/
+}
+
+/*映像・スクロール値を表示させるためのスタイル*/
+.boll {
+  position: fixed; /*固定*/
+  top: 10px; /*基準点がtopから10px*/
+  right: 10px; /*基準点がrightから10px*/
+  z-index: 2; /*重なり潤*/
+  width: 10px; /*横幅*/
+  height: 10px; /*高さ*/
+  border-radius: 20px; /*丸み*/
+}
+
+#time {
+  background-color: rgba(0,0,255,0.5); /*背景色*/
+}
+
+#scroll {
+  background-color: rgba(255,0,0,0.5); /*背景色*/
+}

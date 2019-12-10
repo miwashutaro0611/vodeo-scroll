@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>video読み解くサンプル</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <meta name="robots" content="noindex,nofollow">
+</head>
+<body>
+  <div id="set-height"></div> <!-- 要素をスクロールさせるためもの -->
+  <div id="time" class="boll"></div> <!-- 青いボール -->
+  <div id="scroll" class="boll"></div> <!-- 赤いボール -->
+  <video class="video" id="v0" tabindex="0" autobuffer preload><!-- 映像 -->
+    <source type="video/webm; codecs=&quot;vp8, vorbis&quot;" src="https://www.html5rocks.com/tutorials/video/basics/Chrome_ImF.webm"></source>
+    <source type="video/ogg; codecs=&quot;theora, vorbis&quot;" src="https://www.html5rocks.com/tutorials/video/basics/Chrome_ImF.ogv"></source>
+    <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src="https://www.html5rocks.com/tutorials/video/basics/Chrome_ImF.mp4"></source>
+    p Sorry, your browser does not support the &lt;video&gt; element.
+  </video>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='./js/script.js'></script>
+</body>
+</html>
